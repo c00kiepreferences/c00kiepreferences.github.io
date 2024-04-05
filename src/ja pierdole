@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+    <title>Moja strona html</title>
+
+    <style>
+        /* Style dla całej strony */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style dla headera */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Style dla sidebaru */
+        aside {
+            background-color: #f4f4f4;
+            padding: 20px;
+            width: 250px;
+        }
+
+        /* Style dla contentu */
+        article {
+            flex: 1;
+            padding: 20px;
+        }
+
+        /* Style dla footera */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Reszta stylów zewnętrznego arkusza CSS */
+        /* Dodaj odpowiednie style dla klasy .title, .header2, .bg-sky-500, .shadow-lg, itd. */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">Michał Stradczuk (SmerfTV)</h1>
+    </header>
+
+    <div style="display: flex;">
+        <aside>
+            <!-- Tutaj możesz umieścić treść dla sidebaru -->
+        </aside>
+
+        <article>
+            <!-- Tutaj umieść treść dla contentu -->
+        </article>
+    </div>
+
+    <footer class="align-middle">
+        Paulina Kubera (448313) &copy;
+    </footer>
+</body>
+</html>

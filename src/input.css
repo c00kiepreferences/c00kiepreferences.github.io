@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title {
+    @apply text-gray-300 text-4xl align-middle
+}
+.header2 {
+    @apply text-green-600 text-2xl bg-green-400
+}
+
+h2 {
+    color: darkgreen; /* Kolor tekstu */
+    font-family: "Comic Sans MS";
+}
+
+/* Styl dla stopki */
+footer {
+    background-color: lightgray; /* Kolor tła */
+    padding: 10px; /* Wewnętrzny margines */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    position: fixed; /* Stale pozycjonowany na dole */
+    bottom: 0; /* Odległość od dołu */
+    width: 100%; /* Szerokość */
+}
+
+/* Styl dla całej strony */
+body {
+    background-color: #FFFFCC; /* Pastelowo-żółte tło */
+    padding: 0; /* Usunięcie wewnętrznych marginesów */
+    font-family: Arial, sans-serif; /* Domyślny font */
+}
+
+/* Styl dla tabeli */
+table {
+    width: 50%; /* Szerokość tabeli */
+    border-collapse: collapse; /* Scalanie obramowania */
+}
+
+th, td {
+    border: 1px solid black; /* Obramowanie komórek */
+    padding: 8px; /* Wewnętrzny margines komórek */
+    text-align: left; /* Wyśrodkowanie tekstu */
+}
+
+th {
+    background-color: lightgray; /* Kolor tła nagłówków */
+}

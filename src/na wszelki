@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+    <title>Moja strona html</title>
+</head>
+<body>
+    <div class="grid">
+        <div>
+            2137
+        </div>
+        <div>
+            6969
+        </div>
+    </div>
+
+    <!-- <header>
+        <h1 class="title">Michał Stradczuk (SmerfTV)</h1>
+    </header> -->
+    
+    <article>
+        <h2 class="header2">Cała prawda o Michale Stradczuku</h2>
+        (Artykuł powstał w porozumieniu z podmiotem, którego dotyczy)
+        Michał Stradczuk jest znanym streamerem, geniuszem i studentem MIMuw. <br> W związku z tym, że
+        nasza redakcja dostaje ostatnio bardzo dużo zapytań na jego temat, <br>zdecydowaliśmy się na utworzenie dedykowanej strony odpowiadającej na wszystkie Wasze pytania.
+        <br><br>
+        <table class="bg-sky-500 shadow-lg">
+            <thead>
+                <tr>
+                    <th>Wybrane wymiary Michała Stradczuka</th>
+                    <th>Ilość w cm</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wysokość</td>
+                    <td>180</td>
+                </tr>
+                <tr>
+                    <td>Szerokość</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Obwód bicepsa</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>Wysokość nosa</td>
+                    <td>3.5</td>
+                </tr>
+                <tr>
+                    <td alt="chuj">Inne, nieopisane pomiary</td>
+                    <td>6.5</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+
+        <h1>Zdjęcie Smerfka</h1>
+        <img src="smerf.jpeg" alt="Smerf" width="300">
+        <br><br>
+        Tak, nie mylicie się: tak właśnie wygląda Michał Stradczuk (SmerfTV).
+        <br><br>
+
+        <form action="#" method="post">
+            <!-- Pole tekstowe -->
+            <label for="poleTekstowe">Wyślij redakcji swój ulubiony cytat SmerfTV:</label><br>
+            <input type="text" id="poleTekstowe" name="poleTekstowe"><br><br>
+
+            <!-- Pole wyboru z optgroup -->
+            <label for="wybor">Uważam, że Michał Stradczuk jest...</label><br>
+            <select id="wybor" name="wybor">
+                <option value="Mądry">Mądry</option>
+                <option value="Sprytny">Sprytny</option>
+                <option value="Pocieszny">Pocieszny</option>
+                </optgroup>
+            </select><br><br>
+
+            <!-- Przycisk -->
+            Zasubskrybuj SmerfTV z opcją Twitch Prime! <br>
+            <button type="submit">subskrybuj </button>
+        </form>
+
+        <h2 class="header2">Czy wiesz, że...</h2>
+        <details>
+            <summary>Rozwiń, aby zobaczyć ciekawostę</summary>
+            <p>Kiedy Michał Stradczuk był mały, to zjadł cały granulat dla stradczuków ;(</p>
+        </details>
+
+        <h2 class="header2">Postęp Michała Stradczuka w lepieniu pierogów</h2>
+            <label for="postep">Postęp zadania:</label>
+            <progress id="postep" value="75" max="100">75%</progress>
+        
+        <h2 class="header2">Wybrane części twarzy SmerfTV</h2>
+        <img src="stradczuk.jpeg" alt="Mapa" usemap="#mapa">
+            
+        <map name="mapa">
+            <!-- Definicje obszarów mapy -->
+            <area shape="rect" coords="120,20,280,100" href="./czapka.html" alt="Czapka">
+            <area shape="rect" coords="130,105,270,180" href="./okulary.html" alt="Okulary">
+            <area shape="rect" coords="140,190,260,250" href="./wsysara.html" alt="Wsysara">
+        </map>
+        
+        <br><br><br><br>
+
+    </article>
+    
+    <footer class="align-middle ">
+        Paulina Kubera (448313) &copy;
+    </footer>
+</body>
+</html>
